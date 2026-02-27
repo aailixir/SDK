@@ -109,10 +109,58 @@ GET /api.php?model=all
   }
 ]
 ```
-###
-Get AI release mode
-###
-Response
-{"status":"success","msg":"Model version #2 data loaded successfully.","data":[{"id":5,"modelID":"6","yoloVersion":"YOLOv7","batchSize":8,"epochs":50,"outPath":"\/engine\/YOLOv7\/runs\/train\/temp1","datYAMLPath":"\/dataset\/dataset_7\/data.yaml","datetime":"2026-02-27 14:20:24","pid":"34592"}]}
+## 3️⃣ Get Release Model Information
+
+Retrieve detailed information for a specific release model version.
+
+### Request
+GET /api.php?release={id}&cmd=info
+
+### Example
+
+http://127.0.0.1:8080/api.php?release=5&cmd=info
+### Sample Response
+
+```json
+{
+  "status": "success",
+  "msg": "Model version #2 data loaded successfully.",
+  "data": [
+    {
+      "id": 5,
+      "modelID": "6",
+      "yoloVersion": "YOLOv7",
+      "batchSize": 8,
+      "epochs": 50,
+      "outPath": "/engine/YOLOv7/runs/train/temp1",
+      "datYAMLPath": "/dataset/dataset_7/data.yaml",
+      "datetime": "2026-02-27 14:20:24",
+      "pid": "34592"
+    }
+  ]
+}
+```
+Query Parameters
+| Parameter | Type    | Description             |
+| --------- | ------- | ----------------------- |
+| release   | integer | Release model ID        |
+| cmd       | string  | Action command (`info`) |
+Response Fields
+| Field       | Description                      |
+| ----------- | -------------------------------- |
+| status      | API execution status             |
+| msg         | Status message                   |
+| data        | Release model configuration list |
+| id          | Release record ID                |
+| modelID     | AI model identifier              |
+| yoloVersion | YOLO engine version              |
+| batchSize   | Training batch size              |
+| epochs      | Training epochs                  |
+| outPath     | Training output directory        |
+| datYAMLPath | Dataset YAML configuration path  |
+| datetime    | Release timestamp                |
+| pid         | Process ID                       |
+
+
 
 
