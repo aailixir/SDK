@@ -15,8 +15,6 @@ It is designed for enterprise AI platforms, on-premise deployment, and GPU edge 
 - 🏗 Designed for Edge AI architecture  
 - ⚡ Lightweight local API service  
 
----
-
 # 📡 API Endpoints
 
 ## 1️⃣ Get All AI Datasets
