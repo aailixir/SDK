@@ -6,8 +6,6 @@ Ailixir API SDK provides RESTful APIs to manage AI datasets, YOLO training confi
 
 It is designed for enterprise AI platforms, on-premise deployment, and GPU edge devices.
 
----
-
 ## 📌 Features
 
 - 📂 Retrieve all AI dataset groups  
@@ -20,8 +18,6 @@ It is designed for enterprise AI platforms, on-premise deployment, and GPU edge 
 ---
 
 # 📡 API Endpoints
-
----
 
 ## 1️⃣ Get All AI Datasets
 
