@@ -29,8 +29,6 @@ Retrieve all dataset groups and their associated AI models.
 
 ### Request
 
-
-
 GET /api.php?model=all
 
 
@@ -110,6 +108,7 @@ GET /api.php?model=all
     "ai_model": []
   }
 ]
+```
 ###
 Get AI release mode
 ###
