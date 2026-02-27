@@ -145,11 +145,15 @@ http://127.0.0.1:8080/api.php?release=5&cmd=info
 }
 ```
 Query Parameters
+| --------- | ------- | ----------------------- |
 | Parameter | Type    | Description             |
 | --------- | ------- | ----------------------- |
 | release   | integer | Release model ID        |
 | cmd       | string  | Action command (`info`) |
+| --------- | ------- | ----------------------- |
+
 Response Fields
+| ----------- | -------------------------------- |
 | Field       | Description                      |
 | ----------- | -------------------------------- |
 | status      | API execution status             |
@@ -164,6 +168,7 @@ Response Fields
 | datYAMLPath | Dataset YAML configuration path  |
 | datetime    | Release timestamp                |
 | pid         | Process ID                       |
+| ----------- | -------------------------------- |
 
 
 
