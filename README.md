@@ -144,15 +144,14 @@ http://127.0.0.1:8080/api.php?release=5&cmd=info
   ]
 }
 ```
-Query Parameters
-| --------- | ------- | ----------------------- |
+### Query Parameters
+
 | Parameter | Type    | Description             |
-| --------- | ------- | ----------------------- |
+|-----------|---------|-------------------------|
 | release   | integer | Release model ID        |
 | cmd       | string  | Action command (`info`) |
-| --------- | ------- | ----------------------- |
 
-Response Fields
+### Response Fields
 | ----------- | -------------------------------- |
 | Field       | Description                      |
 | ----------- | -------------------------------- |
