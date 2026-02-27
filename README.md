@@ -62,20 +62,6 @@ http://127.0.0.1:8080/api.php?release=5&cmd=info
     ]
   },
   {
-    "group_id": 2,
-    "group": "Office Automation",
-    "ai_model": [
-      {
-        "ai_id": 4,
-        "ai_name": "Water Bottle Recognition",
-        "ai_path": "/dataset/dataset_5/",
-        "local_path": "D:/Business/dataset/garbage",
-        "ai_engine": "YOLOv5",
-        "epochs": 25
-      }
-    ]
-  },
-  {
     "group_id": 3,
     "group": "Smart Transportation",
     "ai_model": [
@@ -152,7 +138,6 @@ http://127.0.0.1:8080/api.php?release=5&cmd=info
 | cmd       | string  | Action command (`info`) |
 
 ### Response Fields
-| ----------- | -------------------------------- |
 | Field       | Description                      |
 | ----------- | -------------------------------- |
 | status      | API execution status             |
@@ -167,7 +152,6 @@ http://127.0.0.1:8080/api.php?release=5&cmd=info
 | datYAMLPath | Dataset YAML configuration path  |
 | datetime    | Release timestamp                |
 | pid         | Process ID                       |
-| ----------- | -------------------------------- |
 
 
 
