@@ -31,7 +31,10 @@ Retrieve all dataset groups and their associated AI models.
 
 GET /api.php?model=all
 
-
+### Example
+```
+http://127.0.0.1:8080/api.php?release=5&cmd=info
+```
 ### Sample Response
 
 ```json
@@ -117,8 +120,9 @@ Retrieve detailed information for a specific release model version.
 GET /api.php?release={id}&cmd=info
 
 ### Example
-
+```
 http://127.0.0.1:8080/api.php?release=5&cmd=info
+```
 ### Sample Response
 
 ```json
